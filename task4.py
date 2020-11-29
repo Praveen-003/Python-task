@@ -1,0 +1,27 @@
+# (1)
+# (A)
+A = list([1, 2, 3, 4, 5, 6])
+A.append(8)
+print(A)
+# (B)
+A.remove(3)
+print(A)
+# (C)
+C = max(A)
+print(C)
+# (D)
+D = min(A)
+print(D)
+
+
+# (2)
+org_tuple = (1, 2, 3, 4, 5)
+print(org_tuple)
+new_tuple = tuple(reversed(org_tuple))
+print(new_tuple)
+
+
+# (3)
+mon = (123, 'xyz', 12.34)
+newlist = list(mon)
+print(newlist)
