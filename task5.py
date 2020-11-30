@@ -13,8 +13,8 @@ value(a,b)
 
 #(2)
 def covid(self):
-    s=input("enter the name:")
-    bt=float(input("enter the body temperature:"))
-    bt=98
+    s = input("enter the name:")
+    bt = float(input("enter the body temperature:"))
+    bt = 98
     print("name",s)
     print("bodu temperature:",bt)
